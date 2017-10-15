@@ -1,0 +1,14 @@
+[package]
+name = "24_days_of_rust"
+version = "0.1.0"
+authors = ["andantonyan <andantonyan@gmail.com>"]
+
+[[bin]]
+name = "day2"
+[[bin]]
+name = "day3"
+
+[dependencies]
+primal = "0.2.3"
+csv = "0.15.0"
+rustc-serialize = "0.3.18"
